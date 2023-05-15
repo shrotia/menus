@@ -1,0 +1,76 @@
+.burgercards > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-items: center;
+}
+
+.burgercards > ul > li {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.burger-cards-right-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    line-height: 0;
+    position: relative;
+}
+
+.burgercards > ul > li .burger-cards-left-section .burger-cards-card-body {
+    line-height: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.burgercards > ul > li .burger-cards-left-section .burger-cards-card-body p:first-child {
+    color: red;
+}
+
+.burger-cards-left-section {
+    margin-top: 3rem;
+}
+
+.burger-cards-right-section .burger-cards-card-body {
+    line-height: .2em;
+}
+
+.burgercards .cards-card-body {
+    margin: 16px;
+}
+
+.burgercards .cards-card-image {
+    line-height: 0;
+}
+
+.burgercards .cards-card-body > *:first-child {
+    margin-top: 0;
+}
+
+.burgercards > ul > li img {
+    width: 5rem;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+/* Out of Stock */
+.burger-cards-right-section .burger-cards-card-body.out-of-stock {
+    text-decoration: line-through;
+}
+
+.burger-cards-right-section .burger-cards-card-body.out-of-stock::after {
+    content: '❌';
+    animation-name: twoFrames;
+    animation-duration: 1s;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: x-large;
+}

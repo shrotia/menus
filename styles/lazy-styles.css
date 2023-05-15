@@ -1,1 +1,162 @@
 /* below the fold CSS goes here */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 27%, rgba(250,235,215,0.7567620798319328) 89%);
+}
+
+/* reset header height */
+header {
+    height: 0;
+}
+
+/* reset footer padding */
+footer {
+    padding: 0;
+}
+
+/* reset main section padding */
+main .section {
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 900px;
+    min-height: 900px;
+    margin: 0 auto;
+    background-color: white;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+div.section.breakfast-hero {
+    background-color: #d6f0b5;
+    border-radius: 0 0 90% 90%;
+    /* height: 15rem;*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+/* BREAKFAST MENU */
+.section.breakfast-hero > div {
+    max-width: 100%;
+    margin: 0;
+}
+
+div.section.breakfast-hero .breakfast-hero {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+}
+
+div.section.breakfast-hero .burgerhero-wrapper {
+    width: 100%;
+}
+
+div.section.breakfast-hero .burgerhero div:first-child {
+    justify-self: flex-start;
+}
+
+div.section.breakfast-hero .burgerhero div:first-child img {
+    height: 10rem;
+}
+
+div.section.breakfast-hero .burgerhero div:nth-child(2) {
+
+}
+
+div.section.breakfast-hero .burgerhero div:nth-child(2) img {
+    height: 15rem;
+}
+
+div.section.breakfast-hero .burgerhero div:nth-child(3) {
+    justify-self: flex-end;
+}
+
+div.section.breakfast-hero .burgerhero div:nth-child(3) img {
+    height: 10rem;
+}
+
+div.section.breakfast-hero .column.breakfast-hero img {
+    /*max-width: 100%;*/
+}
+
+div.section.breakfast-logo {
+    position: absolute;
+    right: 5%;
+    top: 15%;
+    width: 10rem;
+    height: auto;
+}
+
+div.section.breakfast-items-container {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(173deg, rgba(255, 255, 255, 1) 0%, rgba(250, 235, 215, 1) 64%, rgba(255, 255, 255, 0.8618040966386554) 100%);
+    width: 100%;
+}
+
+div.section.breakfast-items-container .burger-cards-wrapper {
+    max-width: unset;
+}
+
+div.section.breakfast-footer {
+    width: 100%;
+    height: 10rem;
+    background-color: #d6f0b5;
+    background-size: cover;
+    border-radius: 0% 0% 90% 90%;
+}
+
+div.section.breakfast-footer .burgerfooter-wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+div.section.breakfast-footer img {
+    width: 10rem;
+}
+
+div.section.breakfast-footer .breakfast-footer-items {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+div.section.breakfast-footer .breakfast-footer-items div:nth-child(2) {
+    align-self: center;
+}
+
+div.section.breakfast-footer .breakfast-footer-items div:nth-child(3) {
+    align-self: flex-end;
+}
+
+div.section.breakfast-footer .breakfast-footer-items div:nth-child(4) {
+    align-self: center;
+}
+
+div.section.breakfast-footer-logo {
+    position: absolute;
+    right: 0;
+    bottom: -4%;
+}
+
+div.burgerhero.breakfast-hero.block {
+    opacity: 1;
+}
+
+@media (min-height: 900px) {
+    main {
+        overflow-y: hidden;
+    }
+}

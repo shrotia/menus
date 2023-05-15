@@ -1,0 +1,4 @@
+/* to delay the image rendering until lazy-styles gets loaded */
+div.burgerhero.breakfast-hero.block {
+    opacity: 0;
+}
