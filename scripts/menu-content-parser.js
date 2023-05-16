@@ -1,4 +1,4 @@
-const POS_ENDPOINT = "/screens/values.json";
+const POS_ENDPOINT = "/screens/restaurants/values.json";
 
 import { placeholders } from "../blocks/burgercards/burgercards.js";
 import { offerPlaceholders } from "../blocks/burgerfooter/burgerfooter.js";
