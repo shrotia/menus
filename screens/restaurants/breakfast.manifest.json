@@ -1,0 +1,131 @@
+{
+  "version": "3.0",
+  "contentDelivery": {
+    "providers": [
+      {
+        "name": "franklin",
+        "endpoint": "/"
+      }
+    ],
+    "defaultProvider": "franklin"
+  },
+  "timestamp": 1684234911968,
+  "entries": [
+    {
+      "path": "/screens/restaurants/breakfast",
+      "timestamp": 1684229293000
+    },
+    {
+      "path": "/scripts/lib-franklin.js",
+      "timestamp": 1682593692000
+    },
+    {
+      "path": "/scripts/scripts.js",
+      "timestamp": 1684155493000
+    },
+    {
+      "path": "/scripts/menu-content-parser.js",
+      "timestamp": 1684229637000
+    },
+    {
+      "path": "/styles/styles.css",
+      "timestamp": 1682593693000
+    },
+    {
+      "path": "/media_172cd34da9287c7fe1d36f8fc0479f9c4a76424b7.png?width=750&format=png&optimize=medium",
+      "hash": "172cd34da9287c7fe1d36f8fc0479f9c4a76424b7"
+    },
+    {
+      "path": "/media_10def782096dcc006471ed64d9a4aacd5ed5f0c76.png?width=750&format=png&optimize=medium",
+      "hash": "10def782096dcc006471ed64d9a4aacd5ed5f0c76"
+    },
+    {
+      "path": "/media_17e42407b2e170276e9887eaf7424d6056cc6b781.png?width=750&format=png&optimize=medium",
+      "hash": "17e42407b2e170276e9887eaf7424d6056cc6b781"
+    },
+    {
+      "path": "/media_1777dfa60e1b51aa4ea90e35d97c542929cf5445e.png?width=750&format=png&optimize=medium",
+      "hash": "1777dfa60e1b51aa4ea90e35d97c542929cf5445e"
+    },
+    {
+      "path": "/media_1641f9df1680062a933596745db5c136f0f6f10a5.png?width=750&format=png&optimize=medium",
+      "hash": "1641f9df1680062a933596745db5c136f0f6f10a5"
+    },
+    {
+      "path": "/media_1494a39d6bef1888b573e54ea098628cb4924afe9.png?width=750&format=png&optimize=medium",
+      "hash": "1494a39d6bef1888b573e54ea098628cb4924afe9"
+    },
+    {
+      "path": "/media_1bce15ab74589f9eb1b2cb5ad20889e32d225764c.png?width=750&format=png&optimize=medium",
+      "hash": "1bce15ab74589f9eb1b2cb5ad20889e32d225764c"
+    },
+    {
+      "path": "/media_10fdfc815981bc6b7637f9999a0ebb0675211a48d.png?width=750&format=png&optimize=medium",
+      "hash": "10fdfc815981bc6b7637f9999a0ebb0675211a48d"
+    },
+    {
+      "path": "/media_10476a43588343646bef6f69584feb86b8cc4cc14.png?width=750&format=png&optimize=medium",
+      "hash": "10476a43588343646bef6f69584feb86b8cc4cc14"
+    },
+    {
+      "path": "/media_11ca8e1ab9ea4e9fe04065b0809399d24e520a90d.png?width=750&format=png&optimize=medium",
+      "hash": "11ca8e1ab9ea4e9fe04065b0809399d24e520a90d"
+    },
+    {
+      "path": "/media_11b8433d61a8c5d29b750beb5fd8d95128cb0a782.png?width=750&format=png&optimize=medium",
+      "hash": "11b8433d61a8c5d29b750beb5fd8d95128cb0a782"
+    },
+    {
+      "path": "/media_1c92ad33ad30e89b4f4149fa9f91ca1efa9dc3939.png?width=750&format=png&optimize=medium",
+      "hash": "1c92ad33ad30e89b4f4149fa9f91ca1efa9dc3939"
+    },
+    {
+      "path": "/media_128f2c9e7a5eedc387076a7d48eab7edaffc2a297.png?width=750&format=png&optimize=medium",
+      "hash": "128f2c9e7a5eedc387076a7d48eab7edaffc2a297"
+    },
+    {
+      "path": "/media_1efb6ea2693abfef79b50c8768e571679a632dd9b.png?width=750&format=png&optimize=medium",
+      "hash": "1efb6ea2693abfef79b50c8768e571679a632dd9b"
+    },
+    {
+      "path": "/media_1d7a56eaa74b8d19450b73cf879c6a478338e9eaa.png?width=750&format=png&optimize=medium",
+      "hash": "1d7a56eaa74b8d19450b73cf879c6a478338e9eaa"
+    },
+    {
+      "path": "/media_14f51fa7d2525fb3d55f3f6dc856c0a66a66da3f6.png?width=750&format=png&optimize=medium",
+      "hash": "14f51fa7d2525fb3d55f3f6dc856c0a66a66da3f6"
+    },
+    {
+      "path": "/screens/restaurants/values.json",
+      "timestamp": 1684229176000
+    },
+    {
+      "path": "/scripts/delayed.js",
+      "timestamp": 1682593692000
+    },
+    {
+      "path": "/blocks/burgercards/burgercards.css",
+      "timestamp": 1684155493000
+    },
+    {
+      "path": "/blocks/burgercards/burgercards.js",
+      "timestamp": 1684155493000
+    },
+    {
+      "path": "/styles/lazy-styles.css",
+      "timestamp": 1684155493000
+    },
+    {
+      "path": "/blocks/burgerfooter/burgerfooter.css",
+      "timestamp": 1684158627000
+    },
+    {
+      "path": "/blocks/burgerfooter/burgerfooter.js",
+      "timestamp": 1684155493000
+    },
+    {
+      "path": "/blocks/burgerhero/burgerhero.css",
+      "timestamp": 1684155493000
+    }
+  ]
+}
