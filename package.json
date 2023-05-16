@@ -6,7 +6,8 @@
   "scripts": {
     "lint:js": "eslint .",
     "lint:css": "stylelint blocks/**/*.css styles/*.css",
-    "lint": "npm run lint:js && npm run lint:css"
+    "lint": "npm run lint:js && npm run lint:css",
+    "generate-offlineresources": "node scripts/generate-offlineresources.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,10 @@
     "url": "https://github.com/adobe/helix-project-boilerplate/issues"
   },
   "homepage": "https://github.com/adobe/helix-project-boilerplate#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.0",
+    "@aem-screens/screens-offlineresources-generator": "0.0.1-B003"
+  },
   "devDependencies": {
     "@babel/core": "7.21.0",
     "@babel/eslint-parser": "7.19.1",
