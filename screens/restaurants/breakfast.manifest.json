@@ -9,27 +9,27 @@
     ],
     "defaultProvider": "franklin"
   },
-  "timestamp": 1684332873618,
+  "timestamp": 1684333425692,
   "entries": [
     {
       "path": "/screens/restaurants/breakfast",
-      "timestamp": 1684332468000
+      "timestamp": 1684332885000
     },
     {
       "path": "/scripts/lib-franklin.js",
-      "timestamp": 1684332466000
+      "timestamp": 1684332881000
     },
     {
       "path": "/scripts/scripts.js",
-      "timestamp": 1684332466000
+      "timestamp": 1684332881000
     },
     {
       "path": "/scripts/menu-content-parser.js",
-      "timestamp": 1684332466000
+      "timestamp": 1684332881000
     },
     {
       "path": "/styles/styles.css",
-      "timestamp": 1684332466000
+      "timestamp": 1684332881000
     },
     {
       "path": "/media_172cd34da9287c7fe1d36f8fc0479f9c4a76424b7.png?width=750&format=png&optimize=medium",
@@ -97,35 +97,35 @@
     },
     {
       "path": "/screens/restaurants/values.json",
-      "timestamp": 1684332746000
+      "timestamp": 1684333305000
     },
     {
       "path": "/scripts/delayed.js",
-      "timestamp": 1684332466000
+      "timestamp": 1684332881000
     },
     {
       "path": "/blocks/burgercards/burgercards.css",
-      "timestamp": 1684332464000
+      "timestamp": 1684332879000
     },
     {
       "path": "/blocks/burgercards/burgercards.js",
-      "timestamp": 1684332464000
+      "timestamp": 1684332879000
     },
     {
       "path": "/styles/lazy-styles.css",
-      "timestamp": 1684332466000
+      "timestamp": 1684332881000
     },
     {
       "path": "/blocks/burgerfooter/burgerfooter.css",
-      "timestamp": 1684332464000
+      "timestamp": 1684332879000
     },
     {
       "path": "/blocks/burgerfooter/burgerfooter.js",
-      "timestamp": 1684332464000
+      "timestamp": 1684332879000
     },
     {
       "path": "/blocks/burgerhero/burgerhero.css",
-      "timestamp": 1684332464000
+      "timestamp": 1684332879000
     }
   ]
 }
