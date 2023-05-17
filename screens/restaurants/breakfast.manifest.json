@@ -9,7 +9,7 @@
     ],
     "defaultProvider": "franklin"
   },
-  "timestamp": 1684234911968,
+  "timestamp": 1684332136054,
   "entries": [
     {
       "path": "/screens/restaurants/breakfast",
@@ -97,7 +97,7 @@
     },
     {
       "path": "/screens/restaurants/values.json",
-      "timestamp": 1684229176000
+      "timestamp": 1684332012000
     },
     {
       "path": "/scripts/delayed.js",
